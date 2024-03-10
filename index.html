@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1 id="titulo" style="text-align: center;">Faça seu login</h1>
+
+            <div id="bloco">
+                <p id="areaus" class="flutuacao"> 
+                    <input
+                        type="text" id="usuario" placeholder=" ">
+                    <label for="usuario">Usuário:</label>
+                </p>
+
+                <p id="areaem" class="flutuacao">
+                    <input type="email" name="" id="login" placeholder=" ">
+                    <label for="login">Email:</label>
+                </p>
+
+                <p id="areasen" class="flutuacao">
+                    <input type="password" name="" id="senha" placeholder=" ">
+                    <label for="senha">Senha:</label>
+                </p>
+            </div>
+            <div id="botao">
+                <input type="button" value="login" onclick="verificar()" id="botlog">  
+            </div>
+                
+            <div id="res">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
